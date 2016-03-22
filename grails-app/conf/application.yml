@@ -5,6 +5,10 @@ hibernate:
         use_second_level_cache: true
         use_query_cache: false
         region.factory_class: 'org.hibernate.cache.ehcache.EhCacheRegionFactory'
+    # ロギング時にSQLをフォーマットして出力する
+    format_sql: true
+    # SQL発行箇所の情報をSQLコメントとして出力する
+    use_sql_comments: true
 
 dataSource:
     pooled: true
