@@ -10,8 +10,4 @@ class Person {
         name blank: false, maxSize: 1000
         age min: 0
     }
-
-    static mapping = {
-        bloodType enumType: 'string' // インデックスではなく文字列自体をDBに格納する
-    }
 }
