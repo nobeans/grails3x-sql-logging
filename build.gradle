@@ -70,3 +70,7 @@ assets {
     minifyJs = true
     minifyCss = true
 }
+
+// コンソールにテスト実行の標準出力をそのまま流す
+integrationTest.testLogging.showStandardStreams = true
+test.testLogging.showStandardStreams = true
